@@ -9,7 +9,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "base-64": "^0.1.0",
-    "bcrypt": "^5.0.0",
+    "bcrypt-pbkdf": "^1.0.2",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -17,6 +17,7 @@
     "jsonfile": "^6.0.1",
     "jsonwebtoken": "^8.5.1",
     "jwt-decode": "^2.2.0",
+    "nodemon": "^2.0.15",
     "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -25,6 +26,8 @@
     "uuidv4": "^6.2.0"
   },
   "scripts": {
+    "wdev": "nodemon ./src/index.js",
+    "wdev2": "set NODE_PATH=./src&& nodemon ./src/server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
