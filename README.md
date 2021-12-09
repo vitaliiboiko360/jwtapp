@@ -121,7 +121,7 @@ Go inside the `server/` directory and run teh command below.
 node server.js
 ```
 **Note:** Make sure you restart your server each time you checkout a new branch for every module and for 
-every code change in the server side code.  
+every code change in the server side code.
 
 
 # Git Branches
@@ -168,8 +168,3 @@ Below are some good questions and answers by the community on StackOverflow.
 - [JavaScript and third party cookies](https://stackoverflow.com/questions/3363495/javascript-and-third-party-cookies)
 - [Which way to create cookie, by frontend or backend?](https://stackoverflow.com/questions/26082511/which-way-to-create-cookie-by-frontend-or-backend)
 - [How does server return JWT token to the client?](https://stackoverflow.com/questions/51503024/how-does-server-return-jwt-token-to-the-client)
-
- 
- 
-
-
